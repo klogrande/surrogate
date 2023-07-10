@@ -4,6 +4,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Data Sets%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Enter your input data here. The code opertates on data named "normData"
+%The below readin files are data I have worked with, which you can delete
 %
 %{\
 %Combustion Problem
@@ -112,6 +114,7 @@ fprintf('The recommended value for epsilon is %f\n', epsRec)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%Filter Points%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%An optional step for creating a more uniformly dense point cloud
 %{
 thresh=0.001;
 track=0;
